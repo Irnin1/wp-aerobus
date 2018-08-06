@@ -1,0 +1,47 @@
+/*
+ * Верхнее основное меню
+ */
+.nav_menu {
+    max-height: 50px;
+    min-width: 925px;
+    margin: 1px 0 3px;
+}
+ul.nav-main-menu {
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+    background: #09A7D6;
+
+}
+.nav-main-menu li{
+    display: inline-block;
+    list-style: none;
+}
+.menu-item-object-page a{
+    color: white;
+    padding: 11px 20px;
+    font-family: 'DaxlinePro-ExtraBold', sans-serif;
+    font-size: 24px;
+    border: none;
+    transition: .5s linear;
+}
+.menu-item-object-page a:hover{
+    background-color: #034E6D;
+}
+
+/*
+ * Меню соцсетей
+ */
+ul.nav-social-menu {
+    margin: 0;
+    padding: 0;
+    display: block;
+    list-style: none;
+}
+.nav-social-menu li{
+    display: inline-block;
+}
+.menu-item-type-custom a{
+    padding: 12px 5px;  
+}

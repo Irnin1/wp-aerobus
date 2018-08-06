@@ -1,0 +1,48 @@
+@font-face {
+	font-family:"DaxlinePro-Regular";
+	font-style:normal;
+	font-weight:normal;
+	src: url("../fonts/DaxlinePro-Regular/DaxlinePro-Regular.ttf") format("truetype"), url("../fonts/DaxlinePro-Regular/DaxlinePro-Regular.woff") format("woff");
+	}
+
+@font-face {
+	font-family:"DaxlinePro-Medium";
+	font-style:normal;
+	font-weight:normal;
+	src: url("../fonts/DaxlinePro-Medium/DaxlinePro-Medium.ttf") format("truetype"), url("../fonts/DaxlinePro-Medium/DaxlinePro-Medium.woff") format("woff");
+	}
+
+@font-face {
+	font-family:"DaxlinePro-Thin";
+	font-style:normal;
+	font-weight:normal;
+	src: url("../fonts/DaxlinePro-Thin/DaxlinePro-Thin.ttf") format("truetype"), url("../fonts/DaxlinePro-Thin/DaxlinePro-Thin.woff") format("woff");
+	}
+
+@font-face {
+	font-family:"DaxlinePro-Light";
+	font-style:normal;
+	font-weight:normal;
+	src: url("../fonts/DaxlinePro-Light/DaxlinePro-Light.ttf") format("truetype"), url("../fonts/DaxlinePro-Light/DaxlinePro-Light.woff") format("woff");
+	}
+
+@font-face {
+	font-family:"DaxlinePro-ExtraBold";
+	font-style:normal;
+	font-weight:normal;
+	src: url("../fonts/DaxlinePro-ExtraBold/DaxlinePro-ExtraBold.ttf") format("truetype"), url("../fonts/DaxlinePro-ExtraBold/DaxlinePro-ExtraBold.woff") format("woff");
+	}
+
+@font-face {
+	font-family:"DaxlinePro-Bold";
+	font-style:normal;
+	font-weight:normal;
+	src: url("../fonts/DaxlinePro-Bold/DaxlinePro-Bold.ttf") format("truetype"), url("../fonts/DaxlinePro-Bold/DaxlinePro-Bold.woff") format("woff");
+	}
+
+@font-face {
+	font-family:"DaxlinePro-Black";
+	font-style:normal;
+	font-weight:normal;
+	src: url("../fonts/DaxlinePro-Black/DaxlinePro-Black.ttf") format("truetype"), url("../fonts/DaxlinePro-Black/DaxlinePro-Black.woff") format("woff");
+	}
