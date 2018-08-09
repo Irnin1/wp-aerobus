@@ -11,7 +11,7 @@
         wp_enqueue_style( 'media-style', get_template_directory_uri() . '/css/media.css', false, null );
         
 
-        wp_enqueue_style( 'bootstrap-style', get_template_directory_uri() . '/libs/bootstrap-dist/bootstrap.min.css', true, null );
+        wp_enqueue_style( 'bootstrap-style', get_template_directory_uri() . '/libs/bootstrap-dist/css/bootstrap-grid-3.3.2.min.css', true, null );
         wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . './libs/bootstrap-dist/js/bootstrap.min.js', array(), null, true );
 
         wp_enqueue_script( 'jquery' );

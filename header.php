@@ -10,7 +10,7 @@
 <body <?php body_class(); ?>>
 
 <header>
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
 			<div class="col col-sm-4">
 				<div class="logo">
@@ -19,12 +19,19 @@
 			</div>
 			<div class="col col-sm-4">
 				<div class="sity timeWork">
-				Город, время работы
+					<div class="again-sity">
+						<span>Мы в городах:</span>
+					</div>
+					<div class="time-work-in-box">
+						время работы
+					</div>
 				</div>
 			</div>
 			<div class="col col-sm-4">
 				<div class="contactInform">
 				Контактная информация
+					<?php get_search_form(); ?>	
+					<span class="search-toggle"><i class="fa fa-search"></i></span>
 				</div>
 			</div>
 		</div>
@@ -40,9 +47,6 @@
 					)); 
 					?>
 				</div>
-				
-				<?php get_search_form(); ?>	
-				<span class="search-toggle"><i class="fa fa-search"></i></span>
 				<nav class="mobile-nav"></nav>
 			</div>
 		</div>

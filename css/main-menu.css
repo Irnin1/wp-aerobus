@@ -17,10 +17,11 @@ ul.nav-main-menu {
 .nav-main-menu li{
     display: inline-block;
     list-style: none;
+    text-align-last: left;
 }
 .menu-item-object-page a{
     color: white;
-    padding: 11px 20px;
+    padding: 10px 20px;
     font-family: 'DaxlinePro-ExtraBold', sans-serif;
     font-size: 24px;
     border: none;
@@ -28,8 +29,43 @@ ul.nav-main-menu {
 }
 .menu-item-object-page a:hover{
     background-color: #034E6D;
+    text-decoration: none;
 }
-
+.menu-item-object-page a:broken{
+    text-decoration: none;
+}
+/*
+ *Выпадающий список
+ */
+.nav_menu ul ul{
+    color: #09A7D6;
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    
+}
+.nav_menu ul li:hover > ul{
+    display:inherit;
+    
+}
+.nav_menu ul ul li{
+    min-width: 120px;
+    float: none;
+    display: list-item;
+    position: relative;
+    list-style: circle;
+}
+.nav_menu ul ul li a{
+    color: #09A7D6;
+    font-family: "DaxlinePro-Regular", sans-serif;
+    font-size: 18px;
+}
+.nav_menu ul ul ul {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color:rgb(250, 254, 255);
+}
 /*
  * Меню соцсетей
  */
