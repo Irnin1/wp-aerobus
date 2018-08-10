@@ -12,7 +12,7 @@ ul.nav-main-menu {
     display: block;
     text-align: center;
     background: #09A7D6;
-
+    z-index: 1;
 }
 .nav-main-menu li{
     display: inline-block;
@@ -41,8 +41,8 @@ ul.nav-main-menu {
     color: #09A7D6;
     display: none;
     position: absolute;
-    background-color: rgb(255, 255, 255);
-    
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 1;
 }
 .nav_menu ul li:hover > ul{
     display:inherit;
@@ -64,7 +64,7 @@ ul.nav-main-menu {
     position: absolute;
     top: 0;
     left: 100%;
-    background-color:rgb(250, 254, 255);
+    background-color:rgba(250, 254, 255, 0.8);
 }
 /*
  * Меню соцсетей
