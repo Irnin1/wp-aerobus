@@ -4,7 +4,8 @@
 .nav_menu {
     max-height: 50px;
     min-width: 925px;
-    margin: 1px 0 3px;
+    margin: 1px 0 1px;
+    text-decoration-style: none;
 }
 ul.nav-main-menu {
     margin: 0;
@@ -29,9 +30,6 @@ ul.nav-main-menu {
 }
 .menu-item-object-page a:hover{
     background-color: #034E6D;
-    text-decoration: none;
-}
-.menu-item-object-page a:broken{
     text-decoration: none;
 }
 /*

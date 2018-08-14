@@ -18,9 +18,23 @@ body {
     display: block;
     font-family: "DaxlinePro-Regular", sans-serif;
     line-height: 1.3;
-    font-size: 16px;
+    font-size: 14px;
+    color: #09A7D6;
+    text-decoration: none;
+}
+h1{
+    font-family: "DaxlinePro-Bold", sans-serif;
+    font-size: 32px;
     color: #09A7D6;
 }
+h2{
+    font-family: "DaxlinePro-Regular", sans-serif;
+    font-size: 32px;
+    color: #09A7D6;
+}
+/*
+ * header
+ */
 .menu-item a{
     display: block;
     text-decoration: none;
@@ -30,10 +44,113 @@ body {
     margin: 5px 10px 5px;
     text-align: center;
 }
+.time-work-in-box{
+    max-width: 60%; 
+    font-family: "DaxlinePro-Medium", sans-serif;
+    color: #09A7D6;
+    background-color: #E6F4FC;
+    border: 4px solid #E6F4FC;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+.again-sity{
+    padding-left: 20px;
+}
+.contactInform{
+    text-align: center;
+    font-family: "DaxlinePro-Regular", sans-serif;
+    color: #818181;
+}
+.mainOffice{
+    text-align: left;
+}
+.telInform{
+    width: 300px;
+    margin: auto;
+}
+.telInform p{
+    text-align: left;
+    margin: 5px 0 0;
+    font-size: 20px;
+}
+.telInform .tel{
+    text-align: center;
+    color: #F69C00;
+    font-family: "DaxlinePro-ExtraBold", sans-serif;;
+    font-size: 32px;
+    margin: 0 0 10px;
+}
+.button-blue{
+    border-radius: 30px;
+    background-color: #09A7D6;
+    color: white;
+    text-decoration: none;
+    font-family: "DaxlinePro-ExtraBold", sans-serif;
+    font-size: 24px;
+    padding: 5px 15px;
+    text-align: right;
+}
+.button-blue:hover{
+    text-decoration: none;
+}
+.button-blue:active{
+    text-decoration: none;
+}
+.header-polosa{
+    background-color: #c0bfbf;
+    height: 2px;
+    width: 100%;
+    margin-top: 10px
+}
+.otbivka{
+    text-align: center;
+}
+.searchForm{
+    margin-top: 22px;
+    text-align: right;
+}
+.searchform {
+    font-family: "DaxlinePro-Regular", sans-serif;
+}
+.screen-reader-text{
+    display: none;
+}
+#s{
+    border: 2px solid #F69C00;
+    border-radius: 5px;
+    padding: 5px
+}
+#searchsubmit{
+    border: 2px solid #F69C00;
+    background-color: #F69C00;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
+/*
+ *slider
+ */
 .slider img{
     width:100%;
     object-fit:cover;
 }
 .slider{
-    transform: scale(1.03, 1);
+    transform: scale(1.025, 1);
+}
+
+/*
+ *Footer
+ */
+.bottomPolosa{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px; 
+    background-color: #09A7D6;
+}
+.footerAerobus{
+    text-decoration: none;
+    font-family: "DaxlinePro-Regular", sans-serif;
+    font-size: 18px;
+    padding-left: 10px;
 }
