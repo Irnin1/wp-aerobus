@@ -19,7 +19,9 @@
 
         wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css', false, null );
 
-        
+
+        wp_enqueue_script( 'owl.carousel-js', get_template_directory_uri() . './libs/Owl_Carousel/owl.carousel.min.js', array(), null, false );
+        wp_enqueue_style( 'Owl-style', get_template_directory_uri() . '/libs/Owl_Carousel/assets/owl.carousel.min.css', false, null );
     }
     add_action('wp_enqueue_scripts', 'main_style');
 

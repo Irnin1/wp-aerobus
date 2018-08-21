@@ -6,6 +6,27 @@
 	<title><?php wp_title('«', true, 'right'); ?> <?php bloginfo('name'); ?></title>
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	<?php wp_head(); ?>
+	<script>jQuery(document).ready(function($){
+                var owl = $(".owl-carousel");
+				owl.owlCarousel({
+						items:1,
+						margin:0,
+						nav:true,
+						dots:true,
+						loop:true,
+
+						//Autoplay
+    					autoPlay: true,
+						autoplay:true, //Автозапуск слайдера
+                		smartSpeed:1000, //Время движения слайда
+						autoplayTimeout:7000, //Время смены слайда
+
+						// Navigation
+						nav:true,
+    					navText: ["<img src='<?php bloginfo('template_url'); ?>/images/slider/prev.png'>", "<img src='<?php bloginfo('template_url'); ?>/images/slider/next.png'>"]
+                    });
+                });
+        </script>
 </head>
 <body <?php body_class(); ?> >
 
