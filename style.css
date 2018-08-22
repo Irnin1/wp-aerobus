@@ -26,10 +26,15 @@ h1{
     font-size: 32px;
     color: #09A7D6;
 }
-h2{
+h2.blue{
     font-family: "DaxlinePro-Regular", sans-serif;
     font-size: 32px;
     color: #09A7D6;
+}
+h2.white{
+    font-family: "DaxlinePro-Regular", sans-serif;
+    font-size: 32px;
+    color: white;
 }
 /*
  * header
@@ -231,19 +236,68 @@ h2{
  */
  .boxs{
     color: #fff;
-    display: inline-block;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    
+ }
+ .boxs div{
+    font-family: "DaxlinePro-Bold", sans-serif;
+    font-size: 22px;
+    justify-content: center;
+    flex: 1 1 auto;
+    margin-top: -0.15em;
+    max-height: 300px;
+    min-height: 170px;
+    padding: 2em 50px;
  }
 .boxs .box-1{
-
     background-color: #09A7D6;
 }
 .boxs .box-2{
-
     background-color: #3196C5;
 }
 .boxs .box-3{
-
     background-color: #F69C00;
+}
+.none{
+    height: 100px;
+}
+.advanteges-item{
+    background-color: #3196C5;
+    padding: 80px 50px 100px;
+}
+.item-title{
+    text-align: center;
+}
+.advansed-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #fff;
+    font-family: "DaxlinePro-Medium", sans-serif;
+    font-size: 20px;
+}
+.advansed-item-menu{
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding: 1em 3em;
+    line-height: 2rem;
+    margin: 0 10px 0;
+    margin-right: 0;
+}
+.advansed-item-img1{
+    background-size: 8%;
+}
+.advansed-item-img2{
+    background-size: 7%;
+}
+.advantages_items-left{
+    margin-left: 12%;
+}
+.question{
+    min-height: 150px;
+    border: 10px solid #3196C5;
 }
 /*
  *Footer
